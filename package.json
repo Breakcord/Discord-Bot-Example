@@ -1,19 +1,25 @@
 {
-  "name": "breakcord-bot-example",
+  "name": "breakcord-discord-bot-example",
   "version": "1.0.0",
-  "description": "A simple lightweight discord.js v13 bot example using slash commands.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A simple example bot written in discord.js v13 for slash commands, and more.",
+  "main": "index.js",
   "author": "xXCaulDevsYT, & GoNoahWhere",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "ascii-table": "0.0.9",
-    "discord.js": "^12.5.1",
-    "fs": "0.0.1-security",
-    "moment": "^2.29.1",
-    "moment-duration-format": "^2.3.2",
-    "node-fetch": "^2.6.1"
-  }
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "glob": "^7.2.0",
+    "chalk": "^4.1.0",
+    "fs": "^0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Breakcord/Discord-Bot-Example.git"
+  },
+  "bugs": "https://github.com/Breakcord/Discord-Bot-Example/issues",
+  "homepage": "https://github.com/Breakcord/Discord-Bot-Example#readme"
 }
