@@ -15,7 +15,6 @@ module.exports = {
     ],
     category: "Bot",
     description: "Return all commands, or one specific command!",
-    ownerOnly: false,
     run: async (client, interaction) => {
 
         // Buttons that take you to a link
